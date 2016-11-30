@@ -1,0 +1,2 @@
+tcpdump -n dst host ipofserv and src host ipofaclient and port 34197 -x and greater 86 and udp[14]==0x02 and udp[18] ==0x00 && udp[8]== 0x06 && udp[9] ==0x02
+
